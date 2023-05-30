@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chris Shop</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><h1>Chris Shoe Store</h1></div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="" class="active">New Arrival</a></li>
+            <li><a href="" class="active">Shoes</a></li>
+            <li><a href="" class="active">Account</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>New Arrivals</h1>
+        <p>Get The Best Shoes Now!</p>
+        <button>Shop Now</button>
+    </section>
+
+    <h1 class="pheading">Our Latest Shoes</h1>
+
+    <section class="sec">
+        <div class="products">
+
+            <div class="card">
+                <div class="img"><img src="1.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Blue Sneakers</div>
+                <div class="box">
+                    <div class="price">$100</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="2.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Red low-cut Shoes</div>
+                <div class="box">
+                    <div class="price">$50</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="3.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Olive & White Sneakers</div>
+                <div class="box">
+                    <div class="price">$250</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="4.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Blue Running Shoes</div>
+                <div class="box">
+                    <div class="price">$99</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="5.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Black Sneakers</div>
+                <div class="box">
+                    <div class="price">$120</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="6.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Off-White Shoes</div>
+                <div class="box">
+                    <div class="price">$300</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="7.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Leather Shoes</div>
+                <div class="box">
+                    <div class="price">$500</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="8.jpg" alt=""></div>
+                <div class="desc">Men</div>
+                <div class="title">Brown Sneakers</div>
+                <div class="box">
+                    <div class="price">$70</div>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights at <a href="">Chris Store</a></p>
+    </footer>
+
+    <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+</body>
+</html>
